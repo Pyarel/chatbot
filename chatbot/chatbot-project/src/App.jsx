@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { ChatInput } from "./components/ChatInput";
 import ChatMessages from "./components/ChatMessages";
-
 import "./App.css";
 
 //Create an App component
@@ -10,6 +9,7 @@ function App() {
 
   //Array destructuring
   const [chatMessages, setChatMessages] = useState([]);
+
   const [isLoading, setisLoading] = useState(false);
   const [disabled, setButtonState] = useState(true);
 
